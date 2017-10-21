@@ -5,6 +5,7 @@ Please note: the project is still WIP
 
 ## What's inside
 
+- Gulp
 - Twitter Bootstrap
 - Sass
 - jQuery
