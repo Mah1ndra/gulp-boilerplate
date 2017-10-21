@@ -1,0 +1,31 @@
+{
+  "name": "ui-prototype-boilerplate",
+  "version": "0.0.1",
+  "description": "Basic boilerplate for fast UI prototyping",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alsoknownasdrew/ui-prototype-boilerplate.git"
+  },
+  "author": "Andriy Frankevych",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alsoknownasdrew/ui-prototype-boilerplate/issues"
+  },
+  "homepage": "https://github.com/alsoknownasdrew/ui-prototype-boilerplate#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1"
+  }
+}
