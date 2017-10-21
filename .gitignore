@@ -3,6 +3,7 @@
 # Sass
 .sass-cache/
 *.css.map
+css/
 
 # Logs
 logs
