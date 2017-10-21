@@ -2,8 +2,8 @@
 
 
 Basic boilerplate for fast UI prototyping.
+**Please note:** the project is still Work In Progress
 
-Please note: the project is still Work In Progress
 ---
 
 ## What's inside
