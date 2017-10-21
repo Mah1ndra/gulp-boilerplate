@@ -14,11 +14,25 @@ Basic boilerplate for fast UI prototyping.
 - jQuery
 - Font Awesome
 
-## TODO
+## Requirements
+- [Node]https://nodejs.org/en/)
+- [Sass](http://sass-lang.com)
+- [Git](https://git-scm.com/)
 
-- Description
-- Table of Contents
-- Installation
+
+## Installation
+
+To use it clone the repo and run npm install
+
+```bash
+git clone https://github.com/spiromotum/ui-prototype-boilerplate.git your-directory
+cd your-directory
+npm install
+```
+
+And run `gulp` to set up your assets and watch for changes
+
+## TODO
 - Usage
 - Contributing
 - Credits
