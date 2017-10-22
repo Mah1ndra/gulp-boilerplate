@@ -1,10 +1,8 @@
-# ui-prototype-boilerplate
-
-
-Basic boilerplate for fast UI prototyping.
 **Please note:** the project is still Work In Progress
 
----
+# UI Prototype Boilerplate
+
+This is a basic Node.JS boilerplate for rapid UI prototyping.
 
 ## What's inside
 
@@ -23,14 +21,16 @@ Basic boilerplate for fast UI prototyping.
 ## Installation
 
 To use it clone the repo and run npm install
-
+To get started clone the repository.
 ```bash
-git clone https://github.com/spiromotum/ui-prototype-boilerplate.git your-directory
-cd your-directory
+git clone https://github.com/spiromotum/ui-prototype-boilerplate.git
+````
+Next change to the folder with the repository and install the npm modules.
+```bash
+cd ui-prototype-boilerplate-master
 npm install
 ```
-
-And run `gulp` to set up your assets and watch for changes
+After that run `gulp` to set up your assets and watch for changes to the files.
 
 ## TODO
 - Usage
