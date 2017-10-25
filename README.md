@@ -1,4 +1,4 @@
-**Please note:** the project is still Work In Progress
+**Please note:** The project is still in progress
 
 # [UI Prototype Boilerplate](http://repolink.io)
 It should be linked to the Github domain
@@ -19,7 +19,7 @@ This is a basic Node.JS boilerplate for rapid UI prototyping.
 - Font Awesome
 
 ## Requirements
-- [Node]https://nodejs.org/en/)
+- [Node](https://nodejs.org/en/)
 - [Sass](http://sass-lang.com)
 - [Git](https://git-scm.com/)
 
