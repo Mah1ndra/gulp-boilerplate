@@ -38,4 +38,5 @@ After that run `gulp` to set up your assets and `gulp watch` to watch for change
 [MIT License](/LICENSE)
 
 ## TODO
-- Add usage example
+- Add gulp-autoprefixer
+- Add usage example in README
