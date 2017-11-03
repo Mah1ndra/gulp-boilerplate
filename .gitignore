@@ -1,12 +1,11 @@
 .DS_Store
 
+#dist
+dist/
+
 # Sass
 .sass-cache/
 *.css.map
-css/
-
-# JS
-js/
 
 # Logs
 logs
