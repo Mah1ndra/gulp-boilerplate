@@ -17,6 +17,7 @@ gulp.task('watch', function(){
 gulp.task('sass', function(){
     gulp.src([
         './node_modules/bootstrap/dist/css/bootstrap.min.css',
+        './node_modules/font-awesome/css/font-awesome.min.css',
         config.sassPath
     ])
         .pipe(plumber(function(error) {
@@ -29,6 +30,14 @@ gulp.task('sass', function(){
         .pipe(cleanCSS({compatibility: 'ie8'}))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('./dist/css'));
+});
+
+gulp.task('fonts', function(){
+    gulp.src([
+        './node_modules/bootstrap/dist/fonts/*',
+        './node_modules/font-awesome/fonts/*'
+    ])
+    .pipe(gulp.dest('./dist/fonts'));
 });
 
 gulp.task('scripts', function(){
@@ -46,4 +55,4 @@ gulp.task('scripts', function(){
         .pipe(gulp.dest('./dist/js/'));
 });
 
-gulp.task('default', ['scripts', 'sass']);
+gulp.task('default', ['scripts', 'sass', 'fonts']);
