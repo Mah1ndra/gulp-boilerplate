@@ -19,7 +19,7 @@ A basic boilerplate for rapid UI prototyping with Bootstrap, Gulp and Sass.
 
 ## Installation
 
-To use it clone the repo and run npm install
+
 To get started clone the repository.
 ```bash
 git clone https://github.com/spiromotum/ui-prototype-boilerplate.git your-directory
