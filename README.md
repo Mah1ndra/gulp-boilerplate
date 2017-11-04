@@ -1,5 +1,7 @@
 # UI Prototype Boilerplate
 
+[![GitHub package version](https://img.shields.io/github/package-json/v/alsoknownasdrew/ui-prototype-boilerplate.svg)](https://github.com/alsoknownasdrew/ui-prototype-boilerplate/releases/tag/v1.0.0) [![David](https://david-dm.org/alsoknownasdrew/ui-prototype-boilerplate/status.svg)](https://david-dm.org/alsoknownasdrew/ui-prototype-boilerplate) [![David](https://david-dm.org/alsoknownasdrew/ui-prototype-boilerplate/dev-status.svg)](https://david-dm.org/alsoknownasdrew/ui-prototype-boilerplate?type=dev) [![license](https://img.shields.io/github/license/alsoknownasdrew/ui-prototype-boilerplate.svg)](https://github.com/alsoknownasdrew/ui-prototype-boilerplate/blob/master/LICENSE)    
+
 A basic boilerplate for rapid UI prototyping with Bootstrap, Gulp and Sass.
 
 ## What's inside
