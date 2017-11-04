@@ -5,6 +5,7 @@ var concat = require('gulp-concat');
 var cleanCSS = require('gulp-clean-css');
 var uglify = require('gulp-uglify');
 var plumber = require('gulp-plumber');
+var autoprefixer = require('gulp-autoprefixer');
 
 var config = {
     sassPath: './src/scss/**/*.scss'
@@ -26,7 +27,11 @@ gulp.task('sass', function(){
         }))
         .pipe(sourcemaps.init())
         .pipe(sass())
-        .pipe(concat('main.css'))
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
+        .pipe(concat('main.min.css'))
         .pipe(cleanCSS({compatibility: 'ie8'}))
         .pipe(sourcemaps.write('.'))
         .pipe(gulp.dest('./dist/css'));
@@ -50,7 +55,7 @@ gulp.task('scripts', function(){
             console.log(error.toString());
             this.emit('end');
         }))
-        .pipe(concat('app.js'))
+        .pipe(concat('app.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('./dist/js/'));
 });
