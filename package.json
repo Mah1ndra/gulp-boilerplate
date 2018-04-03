@@ -1,10 +1,10 @@
 {
-  "name": "ui-prototype-boilerplate",
-  "version": "1.0.0",
-  "description": "Basic boilerplate for fast UI prototyping",
-  "main": "app.js",
+  "name": "gulp-boilerplate",
+  "version": "2.0.0",
+  "description": "Basic boilerplate for fast UI prototyping with Gulp.js",
+  "main": "./public/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server"
   },
   "repository": {
     "type": "git",
@@ -17,18 +17,20 @@
   },
   "homepage": "https://github.com/alsoknownasdrew/ui-prototype-boilerplate#readme",
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^4.0.0",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.2.1"
+    "jquery": "^3.3.1"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
-    "gulp-clean-css": "^3.9.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.3",
     "gulp-concat": "^2.6.1",
-    "gulp-plumber": "^1.1.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.1",
-    "gulp-uglify": "^3.0.0"
+    "gulp-imagemin": "^4.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "http-server": "^0.11.1"
   }
 }
