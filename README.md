@@ -52,4 +52,4 @@ You can also use the included http server with command `npm start` and go to htt
 
 ## License
 
-[MIT License](/LICENSE)
+[MIT License](/LICENSE/)
