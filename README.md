@@ -9,7 +9,7 @@ Basic boilerplate for rapid UI prototyping with Bootstrap, Gulp and SCSS.
 - [Twitter Bootstrap 4](https://getbootstrap.com/)
 - [jQuery 3](https://jquery.com/)
 - [Font Awesome 4](https://fontawesome.com/v4.7.0/)
-- [Gulp](https://gulpjs.com/) with following plugins:
+- [Gulp](https://gulpjs.com/) with following plugins::
   - [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer)
   - [gulp-clean-css](https://www.npmjs.com/package/gulp-clean-css)
   - [gulp-concat](https://www.npmjs.com/package/gulp-concat)
